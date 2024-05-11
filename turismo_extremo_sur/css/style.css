@@ -1,0 +1,17 @@
+body{
+    background-color: #F8F9FA;
+}
+nav{
+    background-color: #F8F9FA;
+}
+.clima{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.clima li {
+    font-size: 50px;
+    padding: 30px 50px 10px 50px;
+    
+}

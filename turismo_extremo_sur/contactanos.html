@@ -11,30 +11,34 @@
 <body>
     <div class="container">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Turismo Extremo Sur</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./quienes_somos.html">¿Quienes somos?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./nuestros_servicios.html">Nuestro servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./consulta_clima.html">Consulta el Clima</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contactanos.html">Contáctanos</a>
-                    </li>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./quienes_somos.html">¿Quienes somos?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nuestros_servicios.html">Nuestro servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contactanos.html">Contáctanos</a>
+                  </li>
                 </ul>
+                <form class="d-flex">
+                  <button id="consulta_clima" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Consulta el clima</button>
+                </form>
+              </div>
             </div>
-        </nav>
-        <!-- fin navbar -->
+          </nav>
+        <!-- fin navbar -->     
         <form class="formulario-contacto">
             <div class="mb-3">
                 <label for="inputNombre" class="form-label">Nombre Completo</label>
